@@ -1,0 +1,145 @@
+::::DETECTING VARIATION OF EMOTIONS::::
+
+1.ekman emotion is the base for this research
+2.twitter data set :: http://bit.ly/2bLgVUP
+3.twitter api for emotion analysis
+4.Machine Learning :: svm
+5.decision tree classifiers tend to conserve faster than svm
+6.data preprosessing :: cleaning :: remove stop words
+			token :: stemmer algorithm
+7.emoticons carry an emotional value
+8.lexicon based approach showed promising results
+9.dependent emotions can aslo be predicted
+10.WordNet-Affect Database for lexicon analysis
+11.EmoLex database
+12.SemEval Dataset is popular in emotion anlysis
+13.twitter Streaming API :: https://dev.twitter.com/streaming/
+14.web application for classification by human in to categories
+15.happiness, surprise, anger, disgust, fear, sadness
+16.weka data mining tools was used for feature extraction and probabilistic classifiers/ tree based clasifiers
+17.evaluation is done by f1 score and precision and recall calculation
+
+
+::::EMOTION CLASSIFIER::::
+
+1.weather data is collected in API in R
+2.sentiment and emotion can be both predicted
+3.harness the capabilities of bigdata
+4.deeper understanding of users views emotions can be evaluated and predicted
+5.NLP can be used for processing of the noisy data and converting it into an usable format
+6.can also be implemented in R
+7.careem is an application used for collecting data from mobile phones in crowd sourcing format
+8.discrete and dimensional emotions
+9.lexical analysis or ML analysis
+10.happiness, surprise, anger, disgust, fear, sadness
+11.weather can also impact ones mood/emotion
+12.56 :: https://cran.r-project.org/web/packages/streamR/index.html
+13.weather data :: https://openweathermap.org/api
+14.TwitterR is API for real time data tracking
+15.movie review can be generated from twitter data also and can be compared with the official reviewers
+
+
+::::MAPPING EMOTION ON TWITTER::::
+
+1.can detect mental health problems and fluctuations in emotions, thoughts and moods
+2.PCA can be used for analysing the data
+3.twitter has 140 character short messages 
+4.emohose data service for collection of tweets by specified keywords
+5.emohose provides upto 45000 english words per minute
+6.due to large data a cloud can be used to process the data
+7.gender can also be used to classify the tweets
+8.we Feel data API can be used to visualize the data
+9.happiness, surprise, anger, disgust, fear, sadness
+
+
+::::MATHEMATICAL APPROACH::::
+
+1.derives a mathematical algorithm to detect the user emotions
+2.also defines the break points where the emotion trend changes abruptly
+3.twitter(retweets, likes, mentions and followers can be used as features)
+4.high degree of accuracy is needed to predict and declare the users emotions
+5.people rely on centrally processing type if the information is useful to them
+6.people can also get influenced by others
+7.Linguistic Inquiry and Word Count is the technique used as it has a lot off research done
+8.can be done in real time or historically
+9.feature selection plays a very prominent role
+10.stemming algorithm is used for this purpose
+11.AFINN was developed specifically with Twitter as the target source of words :: http://arxiv.org/abs/1103.2903
+12.mainly to identify six different emotions on twitter data
+13.categorises the words into 80 different categories and the reads the actual data to work on by computing the ratio
+14.R statistical learning package cpm is used for this purpose
+15.major hurdle is noisy data
+16.this break point algorithm can also be applied to retweets also
+17.LIWC indicators can be used to forecast the twitter data predicted emotions on the users
+18.we must take a step back and look at the changes in the emotions of people when compared to before(before and after the ad campaign)
+19.we must not ignore the context, sarcasm and irony of the tweets
+20.one could gain confidence on the breakpoint by monitoring it over a period of time
+21.can also monitor the rapid change in the trend lines(sharp rise and fall)
+
+
+::::USER EMOTIONS::::
+
+1.is used for modelling the retweeting behaviour of the users for a respective tweet
+2.emotions will effect the retweeting behaviour of the users
+3.Obama–McCain Debate is another real time data set for making emotion analysis
+4.social, political and cultural trends can be found out with this.
+5.TweetFeel and twendz are the websites offering the twitter emotion analysis
+6.understanding the retweet mechanism is the most imoortant in user emotion prediction
+7.hashtags are also used to filter the data 
+8.emoticons and word-level emotions
+9.emotion analysis is called as emotion mining
+10.sentiments classification is of only two types  positive or negative
+11.uses naive bayes classifier for chinese tweet analysis
+12.tweet content and retweet history can also be used to classify
+13.semi supervisd graph model is used classify
+14.happiness, surprise, anger, disgust, fear, sadness
+15.sentiment prior, SentiWordNet are the sentiment lexicons available for sentiment analysis
+16.for retweeting we need to calculate the TOP-N retweets for a simplified process
+17.hashtags, mentions, emotional words, length can be used as the features ::: sentiment alence is calculated
+18.users features :: total no of users tweets, active time logged in, usage of hashtags ::: emotional divergence is calculated
+19.novel retweeting prediction framework in order to predict retweeting behaviors effective and efficiently.
+
+
+::::EMOTION ANALYSIS :: A SURVEY::::
+
+1.Computation of emotions is a very challenging task,much work has been done but many more increments are also possible
+2.also it can be very helpful for organizations to measure the degree of satisfaction of their customers
+3.opinion mining for the business organizations
+4.This analysis can be done at various levels: document level, sentence level, word level, and aspect level.
+5.Ekman’s basic emotion model AND Plutchik’s bipolar emotion model(uses a 3D model for prediction)
+6.happiness, surprise, anger, disgust, fear, sadness
+7.lexicon based or machine learning based approaches can be used
+8.lexicon based approach uses some predefined dictionary based words and calculates the frequency using statistical methods
+9.WordNet-Affect can be used for this lexicon based purpose
+10.SVM, decision tree and naive bayes classifier can be used in machine learning approach
+11.::complete table summarizing the proir is provided::
+12.EmpaTweet is a proir work done and available to use
+
+
+::::TWITTER SENTIMENT ANALYSIS::::
+
+1.Difficulty in emotion analysis is inappropriate english and grammar
+2.Python Shell 2.7.2 is used for emotion analysis
+3.Opinion mining refers to the broad area of natural language processing, text mining
+4.sentiment analysis is of two types ie. positive and negative
+5.lexicon based approached depend on the thresholdd valus of the words
+6.negation of a positive or a negative word may completely change the whole perspective
+7.PythonTwitter API can be used to calculate the frequency of the collected tweets
+8.Alchemy API can also be used for this purpose
+9.the output of Twitter API is stored in a JSON model.
+10.http://www.internetworldstats.com/stats.htm to retrieve the english word statistics
+
+
+::::MACHINE LEARNING BASED SENTIMENT ANALYSIS FROM TWITTER DATA::::
+
+1.naive bayes classification and SVM are used for the purpose of prediction
+2.Twitter streaming API was also used to gather data
+3.hashtags and retweets are used as features for the prediction purpose
+4.Twitter REST API was used to crawl the list of followers for landmarks of the Republican and Democrat campaigns 5.https://dev.twitter.com/rest/public
+6.tweepy is such a service
+8.feed forward NN are used
+9.translator API can be used to translate from other language to english(Google translator is an open source API)
+10.Tweepy APi can be used to retrieve the twitter acoounts data
+11.data preprocessing plays a prominant role
+12.Textblob,SentiWordNet and Word Sense Disambiguation are some of the sentiment analysis tools
+13.NLP basics are used for this purpose

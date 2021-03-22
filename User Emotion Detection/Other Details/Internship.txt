@@ -1,0 +1,12 @@
+json to csv online conversion
+preprocessing in python using direct packages
+machine svm,
+scikit-learn.org
+train test split scikit team
+pandas 
+split the tweet for emotion labelling using regular expressions in python
+install NLTK
+wordnet fro synonyms
+
+
+
